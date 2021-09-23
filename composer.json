@@ -1,0 +1,15 @@
+{
+    "name": "danik1604/google-authenticator",
+    "type": "library",
+    "require": {
+        "sonata-project/google-authenticator": "^2.3"
+    },
+    "autoload": {
+        "exclude-from-classmap": ["vendor/sonata-project/google-authenticator/src/GoogleQrUrl.php"],
+        "psr-4": {
+            "Sonata\\GoogleAuthenticator\\": "src/"
+        }
+    },
+    "license": "LGPL-3.0-only",
+    "minimum-stability": "stable"
+}
