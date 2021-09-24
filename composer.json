@@ -5,7 +5,6 @@
         "sonata-project/google-authenticator": "^2.3"
     },
     "autoload": {
-        "exclude-from-classmap": ["vendor/sonata-project/google-authenticator/src/GoogleQrUrl.php"],
         "psr-4": {
             "Sonata\\GoogleAuthenticator\\": "src/"
         }
