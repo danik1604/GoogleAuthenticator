@@ -6,9 +6,7 @@
     },
     "autoload": {
         "exclude-from-classmap": ["vendor/sonata-project/google-authenticator/src/GoogleQrUrl.php"],
-        "psr-4": {
-            "Sonata\\GoogleAuthenticator\\": "src/"
-        }
+        "files": ["src/GoogleQrUrl.php"]
     },
     "license": "LGPL-3.0-only",
     "minimum-stability": "stable"
